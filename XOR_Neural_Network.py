@@ -68,7 +68,7 @@ class Neural_Network():
         epoch = epoch.reshape(number_of_training,1)
         #plot the absolute value of the error
         plt.plot(epoch, abs(loss_value_arr))
-        plt.show
+        plt.show()
 
 
 def main():
